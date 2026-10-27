@@ -1,0 +1,23 @@
+# Environment & Secrets
+.env
+.env.local
+*.key
+
+# Dataset (as mandated by capstone guidelines)
+Capstone_Project_Dataset_FTTT_2026/
+*.zip
+
+# Python & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Scratch & temporary logs
+scratch/
+test_batch_output/
+test_audio_input/
+*.log
+reply.wav

@@ -1,0 +1,28 @@
+[
+  {
+    "file_name": "q1_wallet_refund.wav",
+    "transcript": "how fast are refunds to the zentromart wallet",
+    "reply_text": "Hello! I'm ZentroMart's AI assistant. According to our knowledge base, refunds to ZentroMart Wallet are instant, within 2 hours. This applies to both regular orders and cash-on-delivery orders.",
+    "reply_audio_path": "q1_wallet_refund_reply.wav",
+    "chunks_used": [
+      "REF-2",
+      "REF-3",
+      "PAY-4",
+      "MKS-2",
+      "KB-00.1"
+    ],
+    "tools_called": [],
+    "decision": "answer",
+    "latency_seconds": 11.31
+  },
+  {
+    "file_name": "q2_midnight_delivery.wav",
+    "transcript": "can i schedule a delivery at midnight",
+    "reply_text": "Hello! I am ZentroMart's AI assistant. Sorry, I don't have information about that. I can connect you to a colleague who can help.",
+    "reply_audio_path": "q2_midnight_delivery_reply.wav",
+    "chunks_used": [],
+    "tools_called": [],
+    "decision": "escalate",
+    "latency_seconds": 5.9
+  }
+]
